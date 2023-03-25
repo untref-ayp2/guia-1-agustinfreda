@@ -11,9 +11,24 @@ En main dentro de 00-mediciones, se encuentra un ejemplo de como medir el tiempo
 
 Se pide:
 
-1. Tomar mediciones para N=1.000,10.000,...,10.000.000 de los algoritmos de búsquedas. Guardar los resultados en una plantilla de cálculo y graficar ambas tablas en un mismo gráfico. Verificar si las curvas obtenidas se aproximan a las curvas teóricas.
+1. Tomar mediciones para N=1.000,10.000,...,10.000.000 de los algoritmos de búsquedas. Guardar los resultados en una plantilla de cálculo y graficar ambas tablas en un mismo gráfico. Verificar si las curvas obtenidas se aproximan a las curvas teóricas. [OK]
 
-2. Implementar el algoritmo de ordenamiento de burbujeo, escribir tests y tomar las mismas mediciones que el punto anterior
+Busqueda Lineal
+1000 ----> 0,52ms
+10000 ---> 0,53ms
+100000 --> 0,53ms
+
+Busqueda Binaria
+1000 ----> 1ms
+10000 ---> 1,4ms
+100000 --> 6,2ms
+
+2. Implementar el algoritmo de ordenamiento de burbujeo, escribir tests y tomar las mismas mediciones que el punto anterior [OK]
+
+Ordenamiento por Burbujeo
+1000 ----> 2,1ms
+10000 ---> 243ms
+100000 --> 24sg
 
 <h4>Subsecuencia de Suma Máxima</h4>
 
